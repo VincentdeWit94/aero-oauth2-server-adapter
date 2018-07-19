@@ -1,0 +1,43 @@
+{
+    "name": "aero-oauth2-server-adapter",
+    "version": "1.0.0",
+    "description": "OAuth provider for Aero",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint .",
+      "test": "mocha --recursive test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/VincentdeWit94/aero-oauth2-server-adapter"
+    },
+    "keywords": [
+      "aero",
+      "oauth",
+      "oauth2"
+    ],
+    "author": {
+      "name": "Vincent de Wit",
+      "email": "info@byvin.nl"
+    },
+    "dependencies": {
+      "bluebird": "^3.0.5",
+      "aero": "^4.13.3",
+      "oauth2-server": "3.0.0"
+    },
+    "devDependencies": {
+      "chai": "^4.1.0",
+      "chai-as-promised": "^7.1.1",
+      "eslint": "^4.2.0",
+      "eslint-config-airbnb-base": "^12.0.1",
+      "eslint-plugin-import": "^2.2.0",
+      "mocha": "^2.3.3",
+      "should": "^7.1.0",
+      "sinon": "^1.14.1",
+      "sinon-chai": "^2.10.0",
+      "supertest": "^0.15.0"
+    },
+    "engines": {
+      "node": ">=0.11"
+    }
+  }
